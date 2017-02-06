@@ -2,20 +2,20 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #283136;
-  font-weight: 500;
-  font-family: 'Myriad pro', Roboto, sans-serif;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
 }
 
 h1 {
   font-size: 55px;
   line-height: 55px;
   font-color: #000000;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 24px;
   line-height: 24px;
   font-color: #000000;
-  font-weight: 800;
+  font-weight: 700;
 }
