@@ -34,22 +34,26 @@ margin-bottom: 18px;
 .container {
   width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-top: 34px;
+  padding-bottom: 16px;
 }
 
 .index-logo {
   width: 160px;
   float: left;
+  margin-right: 40px;
 }
 
 .navigation {
   width: 440px;
   float: left;
+  margin-left: 160px;
+  margin-right: 200px;
 }
 
 .main-navigation-item {
-
   float:left;
+  padding-left: 30px;
 }
 
 .buy-block {
@@ -154,5 +158,89 @@ margin-bottom: 18px;
   float: right;
   width: 480px;
   margin-right: 280px;
+}
 
+.main-title {
+  width: 760px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 82px;
+  margin-bottom: 116px;
+}
+
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.form {
+  width: 260px;
+  float: left;
+
+}
+
+.form-group-block {
+  margin-bottom: 51px;
+  padding-bottom: 26px;
+  padding-right: 105px;
+
+}
+
+.form-group-block:last-child {
+padding-right: 81px;
+}
+
+.form-group-block:first-child {
+padding-right: 0;
+}
+
+
+.product-container {
+  float: left;
+  width: 760px;
+  margin-left: 140px;
+}
+
+.sorting {
+  width: 760px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.sorting-title {
+  float: left;
+}
+
+.sorting-list {
+  margin-left: 260px;
+}
+
+.sorting-item {
+  float: left;
+  margin-left: 20px;
+  padding: 0 20px;
+}
+
+.product {
+  float: left;
+  width: 360px;
+  margin-bottom: 36px;
+}
+
+.product:nth-child(2n) {
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.product:nth-child(2n+1) {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.pagination {
+  width: 460px;
+  margin-left: 770px;
 }
