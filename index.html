@@ -7,32 +7,34 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="index-logo">
-        <img src="img/nerds-logo.png" class="index-logo-img" src="#" width="160" height="65" alt="Nerds">
+      <div class="container clearfix">
+        <div class="index-logo">
+          <img src="img/nerds-logo.png" class="index-logo-img" src="#" width="160" height="65" alt="Nerds">
+        </div>
+        <div class="navigation">
+          <nav class="main-navigation">
+            <ul class="main-navigation-list clearfix">
+              <li class="main-navigation-item">
+                <a class="main-navigation-link" href="#">Студия</a>
+              </li>
+              <li class="main-navigation-item">
+                <a class="main-navigation-link" href="#">Клиенты</a>
+              </li>
+              <li class="main-navigation-item">
+                <a class="main-navigation-link" href="catalog.html">Магазин</a>
+              </li>
+              <li class="main-navigation-item">
+                <a class="main-navigation-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="buy-block">
+          <img src="img/cart-icon.png" width="15" height="15" alt="cart">
+          <a class="buy" href="#">Корзина</a>
+        </div>
       </div>
-      <div class="container">
-        <nav class="main-navigation">
-          <ul class="main-navigation-list">
-            <li class="main-navigation-item">
-              <a class="main-navigation-link" href="#">Студия</a>
-            </li>
-            <li class="main-navigation-item">
-              <a class="main-navigation-link" href="#">Клиенты</a>
-            </li>
-            <li class="main-navigation-item">
-              <a class="main-navigation-link" href="#">Магазин</a>
-            </li>
-            <li class="main-navigation-item">
-              <a class="main-navigation-link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="buy-block">
-        <img src="img/cart-icon.png" width="15" height="15" alt="cart">
-        <a class="buy" href="#">Корзина</a>
-      </div>
-      <div class=slider-container>
+      <div class="slider-container container clearfix">
         <input type="radio" id="slide1" name="slide" checked>
         <label for="slide1"></label>
         <input type="radio" id="slide2" name="slide">
@@ -41,25 +43,25 @@
         <label for="slide3"></label>
         <div class="slider">
           <h2 class="slider-title">Долго, дорого, скрупулезно</h2>
-          <p class="slider-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>
+          <p class="slider-text">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
           <a class="slider-btn" href="#">Узнать больше</a>
           <img class="slider-img" src="img/nerds-index-slide1.png" width="760" height="431" alt="Slide 1">
         </div>
         <div class="slider">
-          <h2 class="slider-title">Долго, дорого, скрупулезно</h2>
-          <p class="slider-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>
+          <h2 class="slider-title">Любим математику как никто другой</h2>
+          <p class="slider-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
           <a class="slider-btn" href="#">Узнать больше</a>
           <img class="slider-img" src="img/nerds-index-slide2.png" width="760" height="431" alt="Slide 2">
         </div>
         <div class="slider">
-          <h2 class="slider-title">Долго, дорого, скрупулезно</h2>
-          <p class="slider-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения</p>
+          <h2 class="slider-title">Только ночь, только хардкор</h2>
+          <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
           <a class="slider-btn" href="#">Узнать больше</a>
           <img class="slider-img" src="img/nerds-index-slide3.png" width="760" height="431" alt="Slide 3">
         </div>
       </div>
     </header>
-    <section class="features">
+    <section class="features container clearfix">
       <div class="features-item">
         <img src="img/illustration-1.png" width="300" height="146">
         <h2 class="features-title">Веб-сайты</h2>
@@ -79,7 +81,7 @@
         <a class="features-btn" href="#">Заказать</a>
       </div>
     </section>
-    <div class="index-content">
+    <div class="index-content container clearfix">
       <div class="index-content-left">
         <h2 class="index-content-title">Мы-маленькая, но гордая дизайн-студия из Краснодара!</h2>
         <p class="index-content-description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива.
@@ -93,30 +95,30 @@
       </div>
       <div class="index-content-right">
         <img src="img/nerds-illustration.png" width="360" height="208" alt="nerds-logo">
-        <table class=index-content-table>
+        <table class="index-content-table">
           <caption class="table-title">С 2004 года любим точность во всем:</caption>
           <tr class="table-statistics">
             <td class="table-statistics-percent">146%</td>
             <td class="table-statistics-percent">100%</td>
             <td class="table-statistics-percent">50%</td>
           </tr>
-          <tr class="table-description" >
+          <tr class="table-description">
             <td class="table-description-text">Уровень самоотдачи</td>
             <td class="table-description-text">Соблюдение сроков</td>
             <td class="table-description-text">Минимальная предоплата</td>
-          </tr
+          </tr>
         </table>
       </div>
     </div>
-    <div class="partners">
+    <div class="partners container clearfix">
       <div class="partners-item">
         <a class="partners-link" href="#">
-          <img class="partners-img" src="img/logo-1.png" weight="199" height="68" alt="HTML Academy">
+          <img class="partners-img" src="img/logo-1.png" weight="260" height="180" alt="HTML Academy">
         </a>
       </div>
       <div class="partners-item">
         <a class="partners-link" href="#">
-          <img class="partners-img" src="img/logo-2.png" weight="209" height="90" alt="Barbershop">
+          <img class="partners-img" src="img/logo-2.png" weight="260" height="180" alt="Barbershop">
         </a>
       </div>
       <div class="partners-item">
@@ -130,19 +132,21 @@
         </a>
       </div>
     </div>
-    <div class="map">
-      <div class="map-feedback">
-        <h3 class="map-title">Nerds design studio</h3>
-        <p class="map-address">
+    <div class="map container">
+      <div class="map-container clearfix">
+        <div class="map-feedback">
+          <h3 class="map-title">Nerds design studio</h3>
+          <p class="map-address">
           191186, Санкт-Петербург,
           ул. Б. Конюшенная, д. 19/8
           тел. +7 (812) 275-75-75
-        </p>
-        <a class="map-btn" href="#">Напишите нам</a>
+          </p>
+          <a class="map-btn" href="#">Напишите нам</a>
+        </div>
       </div>
     </div>
     <footer class="main-footer">
-      <div class="footer-container">
+      <div class="footer-container container clearfix">
         <section class="footer-social">
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
