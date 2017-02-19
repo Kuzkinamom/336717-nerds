@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Nerds</title>
@@ -9,7 +10,9 @@
     <header class="main-header">
       <div class="container clearfix">
         <div class="index-logo">
-          <img src="img/nerds-logo.png" class="index-logo-img" src="#" width="160" height="65" alt="Nerds">
+          <a class="index-logo-link" href="index.html">
+            <img src="img/nerds-logo.png" class="index-logo-img" src="#" width="160" height="65" alt="Nerds">
+          </a>
         </div>
         <div class="navigation">
           <nav class="main-navigation">
@@ -30,34 +33,40 @@
           </nav>
         </div>
         <div class="buy-block">
-          <img src="img/cart-icon.png" width="15" height="15" alt="cart">
           <a class="buy" href="#">Корзина</a>
         </div>
       </div>
       <div class="slider-container container clearfix">
-        <input type="radio" id="slide1" name="slide" checked>
-        <label for="slide1"></label>
-        <input type="radio" id="slide2" name="slide">
-        <label for="slide2"></label>
-        <input type="radio" id="slide3" name="slide">
-        <label for="slide3"></label>
-        <div class="slider">
-          <h2 class="slider-title">Долго, дорого, скрупулезно</h2>
-          <p class="slider-text">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-          <a class="slider-btn" href="#">Узнать больше</a>
-          <img class="slider-img" src="img/nerds-index-slide1.png" width="760" height="431" alt="Slide 1">
+        <input type="radio" id="slide1" name="toggle" checked>
+        <input type="radio" id="slide2" name="toggle">
+        <input type="radio" id="slide3" name="toggle">
+        <div class="slider-controls">
+          <label for="slide1" ></label>
+          <label for="slide2" ></label>
+          <label for="slide3" ></label>
         </div>
-        <div class="slider">
-          <h2 class="slider-title">Любим математику как никто другой</h2>
-          <p class="slider-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-          <a class="slider-btn" href="#">Узнать больше</a>
-          <img class="slider-img" src="img/nerds-index-slide2.png" width="760" height="431" alt="Slide 2">
-        </div>
-        <div class="slider">
-          <h2 class="slider-title">Только ночь, только хардкор</h2>
-          <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
-          <a class="slider-btn" href="#">Узнать больше</a>
-          <img class="slider-img" src="img/nerds-index-slide3.png" width="760" height="431" alt="Slide 3">
+        <div class="sliders">
+          <div class="slider">
+            <div class="slider-description">
+              <h2 class="slider-title">Долго, дорого, скрупулезно</h2>
+              <p class="slider-text">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+              <a class="slider-btn" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="slider-description">
+              <h2 class="slider-title">Любим математику как никто другой</h2>
+              <p class="slider-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+              <a class="slider-btn" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="slider-description">
+              <h2 class="slider-title">Только ночь, только хардкор</h2>
+              <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
+              <a class="slider-btn" href="#">Узнать больше</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -94,13 +103,13 @@
         </ul>
       </div>
       <div class="index-content-right">
-        <img src="img/nerds-illustration.png" width="360" height="208" alt="nerds-logo">
+        <img class="index-content-logo" src="img/nerds-illustration.png" width="360" height="208" alt="nerds-logo">
         <table class="index-content-table">
           <caption class="table-title">С 2004 года любим точность во всем:</caption>
           <tr class="table-statistics">
-            <td class="table-statistics-percent">146%</td>
-            <td class="table-statistics-percent">100%</td>
-            <td class="table-statistics-percent">50%</td>
+            <td class="table-statistics-percent">146<sup>%</sup></td>
+            <td class="table-statistics-percent">100<sup>%</sup></td>
+            <td class="table-statistics-percent">50<sup>%</sup></td>
           </tr>
           <tr class="table-description">
             <td class="table-description-text">Уровень самоотдачи</td>
@@ -138,14 +147,14 @@
           <h3 class="map-title">Nerds design studio</h3>
           <p class="map-address">
           191186, Санкт-Петербург,
-          ул. Б. Конюшенная, д. 19/8
-          тел. +7 (812) 275-75-75
+          ул. Б. Конюшенная, д. 19/8<br>
           </p>
+          <p class="map-phone">тел. +7 (812) 275-75-75</p>
           <a class="map-btn" href="#">Напишите нам</a>
         </div>
       </div>
     </div>
-    <footer class="main-footer">
+    <footer class="main-footer container">
       <div class="footer-container container clearfix">
         <section class="footer-social">
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
@@ -154,7 +163,7 @@
         </section>
         <section class="footer-text">
           <p class="footer-text-proposal">Давайте дружить, это выгодно!</p>
-          <p class="footer-text-proposal">Скидка 10% для друзей из социальных сетей.</p>
+          <p class="footer-text-description">Скидка 10% для друзей из социальных сетей.</p>
         </section>
       </div>
     </footer>
