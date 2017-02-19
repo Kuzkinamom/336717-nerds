@@ -666,9 +666,9 @@ background-color: #eeeeee;
     cursor: pointer;
 }
 
-#slide1:checked ~ .slider-controls label[for="slide1"],
-#slide2:checked ~ .slider-controls label[for="slide2"],
-#slide3:checked ~ .slider-controls label[for="slide3"] {
+.slide1:checked ~ .slider-controls label[for="slide1"],
+.slide2:checked ~ .slider-controls label[for="slide2"],
+.slide3:checked ~ .slider-controls label[for="slide3"] {
     background: #c1c1c1;
 }
 
@@ -746,13 +746,13 @@ background-color: #eeeeee;
   background-position: 100% 0;
 }
 
-#slide1:checked ~ .sliders .slider:nth-child(1) {
+.slide1:checked ~ .sliders .slider:nth-child(1) {
     display: block;
 }
-#slide2:checked ~ .sliders .slider:nth-child(2) {
+.slide2:checked ~ .sliders .slider:nth-child(2) {
     display: block;
 }
-#slide3:checked ~ .sliders .slider:nth-child(3) {
+.slide3:checked ~ .sliders .slider:nth-child(3) {
     display: block;
 }
 
