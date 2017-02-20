@@ -1280,7 +1280,16 @@ display: none;
   border-radius: 4px;
   font-size: 16px;
   line-height: 18px;
-  box-shadow: none;
+}
+
+.form-btn:hover {
+  background-color: #dfdfdf;
+}
+
+.form-btn:active {
+  background-color: #d5d5d5;
+  color: #959595;
+  box-shadow: inset 0px 3px 0 0px #bfbfbf; 
 }
 
 .product-container {
