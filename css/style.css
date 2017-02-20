@@ -1280,10 +1280,9 @@ padding-right: 81px;
 .modal-content {
   position: absolute;
   bottom: -1900px;
-  left: 30%;
+  left: 15%;
   width: 960px;
   height: 590px;
-  /*padding: 79px 100px 85px 100px;*/
   background-color: #ffffff;
   box-shadow: 0 30px 50px #646565;
 
@@ -1364,6 +1363,12 @@ padding-right: 81px;
   display: block;
 }
 
+.form-text-name {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
 .form-text-narrow {
   width: 324px;
 }
@@ -1378,11 +1383,19 @@ padding-right: 81px;
   margin-left: 40px;
 }
 
-.form input:hover {
+.form-text-narrow:hover {
   border-color: #b4b9bb;
 }
 
-.form input:invalid {
+.form-text-wide:hover {
+  border-color: #b4b9bb;
+}
+
+.form-text-narrow:invalid {
+  border-color: #e74246;
+}
+
+.form-text-wide:invalid {
   border-color: #e74246;
 }
 
