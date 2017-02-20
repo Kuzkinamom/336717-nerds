@@ -43,19 +43,43 @@
           <fieldset class="form-group-block">
             <legend class=form-group-title>Стоимость:</legend>
           </fieldset>
-          <fieldset class="form-group-block">
-            <legend class="form-group-title">Сетка:</legend>
-            <label><input type="radio" name="adaptive" value="adaptive" checked>Адаптивная</label>
-            <label><input type="radio" name="fixed" value="fixed">Фиксированная</label>
-            <label><input type="radio" name="flexible" value="flexible">Резиновая</label>
+          <fieldset class="form-radio-block">
+            <legend class="form-radio-title">Сетка:</legend>
+            <label class="form-radio-item">
+              <input class="form-radio-field" type="radio" name="adaptive" value="adaptive" checked>
+              <span class="form-radio-name">Адаптивная</span>
+            </label>
+            <label class="form-radio-item">
+              <input class="form-radio-field" type="radio" name="fixed" value="fixed">
+              <span class="form-radio-name">Фиксированная</span>
+            </label>
+            <label class="form-radio-item">
+              <input class="form-radio-field" type="radio" name="flexible" value="flexible">
+              <span class="form-radio-name">Резиновая</span>
+            </label>
           </fieldset>
           <fieldset class="form-group-block">
             <legend class="form-group-title">Особенности:</legend>
-            <label><input type="checkbox" name="slider" value="slider" checked>Слайдер</label>
-            <label><input type="checkbox" name="advantages" value="advantages">Блок преимуществ</label>
-            <label><input type="checkbox" name="news" value="news" checked>Новости</label>
-            <label><input type="checkbox" name="gallery" value="gallery">Галерея</label>
-            <label><input type="checkbox" name="busket" value="busket" checked>Корзина</label>
+            <label class="form-checkbox-item">
+              <input class="form-checkbox-field" type="checkbox" name="slider" value="slider" checked>
+              <span class="form-checkbox-name">Слайдер<span>
+              </label>
+            <label class="form-checkbox-item">
+              <input class="form-checkbox-field" type="checkbox" name="advantages" value="advantages">
+              <span class="form-checkbox-name">Блок преимуществ</span>
+            </label>
+            <label class="form-checkbox-item">
+              <input class="form-checkbox-field" type="checkbox" name="news" value="news" checked>
+              <span class="form-checkbox-name">Новости</span>
+            </label>
+            <label class="form-checkbox-item">
+              <input class="form-checkbox-field" type="checkbox" name="gallery" value="gallery">
+              <span class="form-checkbox-name">Галерея</span>
+            </label>
+            <label class="form-checkbox-item">
+              <input class="form-checkbox-field" type="checkbox" name="busket" value="busket" checked>
+              <span class="form-checkbox-name">Корзина</span>
+            </label>
           </fieldset>
           <input class="form-btn" type="submit" value="Показать">
         </form>
@@ -167,15 +191,18 @@
     <div class="modal-content">
       <button class="modal-content-btn" type="button" title="закрыть">Закрыть</button>
       <h2 class="modal-title">Напишите нам</h2>
-      <form class="modal-form" action="#" method="post">
-        <label for="user-introduction" class="modal-user-info">Ваше имя:
-          <input class="user-info introduction" type="text" name="introduction" id="user-introduction" placeholder="Представьтесь, пожалуйста">
+      <form class="modal-form clearfix" action="#" method="post">
+        <label class="form-text-item">
+          <span class="form-text-name">Ваше имя:</span>
+          <input class="form-text-field form-text-narrow" type="text" name="introduction" placeholder="Представьтесь, пожалуйста">
         </label>
-        <label for="user-answer" class="modal-user-info mail">Ваш e-mail:
-          <input class="user-info answer" type="text"  name="answer" id="user-answer" placeholder="Для отправки ответа">
+        <label class="form-text-item">
+          <span class="form-text-name">Ваш e-mail:</span>
+          <input class="form-text-field form-text-narrow" type="text" name="answer" placeholder="Для отправки ответа">
         </label>
-        <label for="user-message" class="modal-user-info">Текст письма:
-          <input class="user-info message" type="text"  name="message" id="user-message" placeholder="В свободной форме">
+        <label class="form-text-item">
+          <span class="form-text-name">Текст письма:</span>
+          <textarea class="form-text-field form-text-wide" type="text"  name="message" placeholder="В свободной форме"></textarea>
         </label>
         <button class="modal-btn" type="submit">Отправить</button>
       </form>
