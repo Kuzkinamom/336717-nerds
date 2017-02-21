@@ -1217,11 +1217,11 @@ padding-right: 81px;
   width: 16px;
   height: 16px;
   border: 4px solid #4d4d4d;
-  opacity: 0.4;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.4;
 }
 
 .form-radio-title {
@@ -1235,17 +1235,33 @@ padding-right: 81px;
  .form-radio-field:checked + span::before {
   content: "";
   background-color: #4d4d4d;
-  opacity: 0.4;
   position: absolute;
-  width: 9px;
-  height: 9px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  top: 8px;
+  top: 7px;
   left: 7px;
+  opacity: 0.4;
 }
 
-.form-radio-item:hover {
+.form-radio-field:disabled + span {
+  opacity: 0.3;
+}
+
+.form-radio-item:hover::before {
   opacity: 1;
+}
+
+.form-radio-item:hover > span::before {
+  opacity: 1;
+}
+
+.form-radio-name {
+  color: #283136;
+}
+
+.form-radio-item:hover > span {
+  color: #000;
 }
 
 .form-checkbox-block {
@@ -1287,8 +1303,24 @@ padding-right: 81px;
  left: 0;
 }
 
-.form-checkbox-item::before:hover {
+.form-checkbox-field:disabled + span {
+  opacity: 0.3;
+}
+
+.form-checkbox-item:hover::before {
   opacity: 1;
+}
+
+.form-checkbox-item:hover > span::before {
+  opacity: 1;
+}
+
+.form-checkbox-name {
+  color: #283136;
+}
+
+.form-checkbox-item:hover > span {
+  color: #000;
 }
 
 .form-checkbox-title {
@@ -1685,6 +1717,18 @@ display: none;
 
 .form-text-wide:invalid {
   border-color: #e74246;
+}
+
+.form-text-narrow:focus {
+  border-color: #000000;
+}
+
+.form-text-wide:focus {
+  border-color: #000000;
+}
+
+.form-text-field:focus {
+  color: #444444;
 }
 
 .modal-btn {
