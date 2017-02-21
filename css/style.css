@@ -490,12 +490,7 @@ h2 {
   clear: both;
 }
 
-.main-header {
-margin-bottom: 82px;
-padding-top: 50px;
-padding-bottom: 0;
-background-color: #eeeeee;
-}
+.main-header {margin-bottom: 59px;padding-top: 50px;padding-bottom: 0;background-color: #eeeeee;}
 
 .container {
   width: 1160px;
@@ -784,8 +779,9 @@ background-color: #eeeeee;
 }
 
 .features-text {
+  /* margin-top: 4px; */
   margin-right: 40px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .features-item:last-child {
