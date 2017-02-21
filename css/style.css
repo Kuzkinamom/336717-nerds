@@ -1596,16 +1596,17 @@ display: none;
 }
 
 .modal-content {
-  position: absolute;
-  bottom: -1900px;
-  left: 15%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -295px;
+  margin-left: -480px;
   width: 960px;
   height: 590px;
   background-color: #ffffff;
   box-shadow: 0 30px 50px #646565;
   padding-bottom: 20px;
   display: none;
-
 }
 
 .modal-content-btn {

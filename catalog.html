@@ -4,6 +4,24 @@
     <link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Nerds</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        $(".map-btn").click(function(){
+          $(".modal-content").css({
+            "display": "block"
+          });
+        });
+
+        $(".modal-content-btn").click(function(){
+          $(".modal-content").css({
+            "display": "none"
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <header class="main-header">
@@ -189,7 +207,7 @@
           ул. Б. Конюшенная, д. 19/8<br>
           </p>
           <p class="map-phone">тел. +7 (812) 275-75-75</p>
-          <a class="map-btn" href="#">Напишите нам</a>
+          <a class="map-btn" href="#inline">Напишите нам</a>
         </div>
       </div>
     </div>
