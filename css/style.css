@@ -686,7 +686,7 @@ background-color: #eeeeee;
   color: #283136;
 }
 
-.slider-title { 
+.slider-title {
   font-size: 55px;
   line-height: 55px;
   color: #000000;
@@ -881,7 +881,17 @@ background-color: #eeeeee;
   list-style: none;
   color: #283136;
   padding-bottom: 32px;
+  position: relative;
+}
 
+.index-content-item::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #fb565a;
+  left: -40px;
+  top: 10px; 
 }
 
 .index-content-right {
