@@ -550,12 +550,12 @@ background-color: #eeeeee;
   color: #b7b7b7;
 }
 
-.active span {
+.active a {
   display: block;
   padding: 20px 25px;
 }
 
-.active span:hover {
+.active a:hover {
   color: #000000;
 }
 
@@ -686,30 +686,37 @@ background-color: #eeeeee;
   color: #283136;
 }
 
-.slider-title {
+.slider-title { 
   font-size: 55px;
   line-height: 55px;
   color: #000000;
   font-weight: 500;
-  margin-bottom: 33px;
+  margin-top: 71px;
+  margin-bottom: 15px;
 }
 
 .slider-text {
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 44px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  width: 326px;
 }
 
 .slider a {
+  display: inline-block;
+  text-align: center;
+  width: 210px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #fb565a;
   border-radius: 3px;
-  padding: 18px 54px;
+  padding: 18px 15px;
   font-size: 16px;
   line-height: 18px;
-  margin-top: 44px;
+  margin-top: 37px;
+  font-family: inherit;
 }
 
 .slider a:hover {
@@ -784,14 +791,18 @@ background-color: #eeeeee;
 }
 
 .features-item a {
+  display: inline-block;
+  text-align: center;
+  width: 130px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #fb565a;
   border-radius: 4px;
-  padding: 18px 38px;
+  padding: 18px 15px;
   font-size: 16px;
   line-height: 18px;
+  font-family: inherit;
 }
 
 .features-item a:hover {
@@ -971,12 +982,16 @@ padding: 0px 20px;
 }
 
 .map-btn {
+  display: inline-block;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: inherit;
   color: #ffffff;
   background-color: #fb565a;
   border-radius: 4px;
-  padding: 18px 45px;
+  padding: 18px 15px;
+  width: 191px;
   font-size: 16px;
   line-height: 18px;
 }
@@ -1191,7 +1206,8 @@ padding-right: 81px;
   display: block;
   width: 16px;
   height: 16px;
-  border: 4px solid #b8b8b8;
+  border: 4px solid #4d4d4d;
+  opacity: 0.4;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1208,13 +1224,18 @@ padding-right: 81px;
 
  .form-radio-field:checked + span::before {
   content: "";
-  background-color: #b8b8b8;
+  background-color: #4d4d4d;
+  opacity: 0.4;
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
-  top: 7px;
+  top: 8px;
   left: 7px;
+}
+
+.form-radio-item:hover {
+  opacity: 1;
 }
 
 .form-checkbox-block {
@@ -1237,6 +1258,7 @@ padding-right: 81px;
   width: 27px;
   height: 23px;
   background-image: url('../img/sprite.png');
+  opacity: 0.4;
   background-position: -20px -75px;
   position: absolute;
   top: 0;
@@ -1246,12 +1268,17 @@ padding-right: 81px;
 .form-checkbox-field:checked + span::before {
  content: "";
  background-image: url('../img/sprite.png');
+ opacity: 0.4;
  background-position: -20px -138px;
  position: absolute;
  width: 27px;
  height: 23px;
  top: 0px;
  left: 0px;
+}
+
+.form-checkbox-item::before:hover {
+  opacity: 1;
 }
 
 .form-checkbox-title {
@@ -1272,14 +1299,18 @@ display: none;
 
 
 .form-btn {
+  display: inline-block;
+  text-align: center;
   width: 260px;
-  padding: 18px 89px;
+  padding: 18px 15px;
   text-transform: uppercase;
   background-color: #eeeeee;
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 4px;
   font-size: 16px;
   line-height: 18px;
+  border: 0;
+  font-family: inherit;
 }
 
 .form-btn:hover {
@@ -1289,7 +1320,7 @@ display: none;
 .form-btn:active {
   background-color: #d5d5d5;
   color: #959595;
-  box-shadow: inset 0px 3px 0 0px #bfbfbf; 
+  box-shadow: inset 0px 3px 0 0px #bfbfbf;
 }
 
 .product-container {
@@ -1316,6 +1347,7 @@ display: none;
 
 .sorting-list {
   float: left;
+  cursor: pointer;
 }
 
 .sorting-order {
@@ -1445,15 +1477,17 @@ display: none;
 }
 
 .product-btn {
-  width: 140px;
-  height: 32px;
+  display: inline-block;
+  text-align: center;
+  width: 170px;
   background-color: #fb565a;
   border-radius: 3px;
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 18px 60px;
+  padding: 18px 15px;
   margin-bottom: 43px;
+  font-family: inherit;
 }
 
 .product-btn:hover {
@@ -1468,6 +1502,55 @@ display: none;
 
 .pagination {
   float: left;
+  margin-bottom: 60px;
+}
+
+.pagination a {
+  display: inline-block;
+  text-align: center;
+  min-width: 14px;
+  height: 14px;
+  padding: 18px 18px;
+  background-color: #eeeeee;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: 11px;
+  border-radius: 3px;
+}
+
+.pagination-btn {
+  width: 224px;
+}
+
+.pagination-link:hover {
+  background-color: #dbdbdb;
+}
+
+.pagination-link:active {
+  background-color: #d5d5d5;
+  color: #959595;
+  box-shadow: inset 0 3px 0 0 #bfbfbf;
+}
+
+.pagination .current {
+  padding: 15px 15px;
+  background-color: #ffffff;
+  border: 3px solid #dbdbdb;
+}
+
+.pagination .current:hover {
+ background-color: #dbdbdb;
+}
+.pagination .current:active {
+  background-color: #d5d5d5;
+  color: #959595;
+  box-shadow: inset 0 3px 0 0 #bfbfbf;
+  border: 0;
+  padding: 18px 18px;
 }
 
 .modal-content {
@@ -1479,6 +1562,7 @@ display: none;
   background-color: #ffffff;
   box-shadow: 0 30px 50px #646565;
   padding-bottom: 20px;
+  display: none;
 
 }
 
@@ -1598,10 +1682,11 @@ display: none;
   background-color: #e74246;
   color: #ffffff;
   margin-top: 47px;
-  padding: 16px 82px;
+  padding: 16px 15px;
   text-transform: uppercase;
   border-radius: 3px;
-
+  border: 0;
+  font-family: inherit;
 }
 
 
