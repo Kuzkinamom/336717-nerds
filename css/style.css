@@ -491,7 +491,7 @@ h2 {
 }
 
 .main-header {
-  margin-bottom: 59px;
+  margin-bottom: 61px;
   padding-top: 51px;
   padding-bottom: 0;
   background-color: #eeeeee;
@@ -707,7 +707,7 @@ h2 {
   line-height: 24px;
   margin-bottom: 0;
   margin-top: 24px;
-  width: 326px;
+  width: 360px;
 }
 
 .slider a {
@@ -789,9 +789,9 @@ h2 {
 }
 
 .features-text {
-  /* margin-top: 4px; */
+  margin-top: -3px;
   margin-right: 40px;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
 }
 
 .features-item:last-child {
@@ -859,7 +859,7 @@ h2 {
 .index-content {
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
 }
 
 .index-content-left {
@@ -881,21 +881,21 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #283136;
-  margin-bottom: 38px;
+  margin-bottom: 40px;
 }
 
 .index-content-text {
   text-transform: uppercase;
   color: #000000;
   font-weight: 700;
-  margin-bottom: 19px;
+  margin-bottom: 23px;
 }
 
 
 .index-content-item {
   list-style: none;
   color: #283136;
-  padding-bottom: 29px;
+  padding-bottom: 24px;
   position: relative;
 }
 
@@ -912,10 +912,9 @@ h2 {
 .index-content-right {
   float: right;
   width: 360px;
-  margin-right: 20px;
-  padding-top: 40px;
-  padding-left: 16px;
-
+  margin-right: 17px;
+  padding-top: 41px;
+  padding-left: 19px;
 }
 .index-content-logo {
   margin-left: 18px;
@@ -940,18 +939,18 @@ h2 {
 }
 
 .table-description-text {
-  padding-top: 35px;
-  padding-left: 21px;
+  padding-top: 38px;
+  padding-left: 17px;
   font-size: 16px;
   line-height: 18px;
   color: #283136;
 }
 
 .partners {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 65px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 70px;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -1041,7 +1040,7 @@ padding: 0 18px;
   float: left;
   width: 260px;
   margin-right: 140px;
-  padding-top: 31px;
+  padding-top: 30px;
   text-align: center;
 }
 
