@@ -491,14 +491,14 @@ h2 {
 }
 
 .main-header {
-  margin-bottom: 61px;
+  margin-bottom: 59px;
   padding-top: 51px;
   padding-bottom: 0;
   background-color: #eeeeee;
 }
 
 .main-header .inner {
-  margin-bottom: 59px;
+  margin-bottom: 46px;
   padding-top: 51px;
   padding-bottom: 0;
   background-color: #eeeeee;
@@ -949,8 +949,8 @@ h2 {
 .partners {
   padding-top: 4px;
   padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 70px;
+  margin-top: 37px;
+  margin-bottom: 68px;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -958,6 +958,7 @@ h2 {
   float: left;
   width: 280px;
   opacity: 0.2;
+  margin-right: 13px;
 }
 
 .partners-item:hover {
@@ -979,7 +980,10 @@ position: relative;
 
 }
 
-.map-container {margin-top: 72px;padding: 0px 18px;}
+.map-container {
+  margin-top: 72px;
+  padding: 0px 18px;
+}
 
 .map-feedback {
   position:absolute;
@@ -1037,7 +1041,7 @@ position: relative;
   float: left;
   width: 260px;
   margin-right: 140px;
-  padding-top: 30px;
+  padding-top: 31px;
   text-align: center;
 }
 
@@ -1392,10 +1396,16 @@ display: none;
   margin-left: 140px;
 }
 
+.products {
+  margin-top: 46px;
+  margin-bottom: 28px;
+}
+
+
 .sorting {
   width: 760px;
   margin-right: 40px;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
   position:relative;
 }
 
@@ -1419,10 +1429,10 @@ display: none;
   width: 50px;
   height: 50px;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 31px;
   content: "";
   position: absolute;
-  top: 8px;
+  top: 20px;
   left: 690px;
   background-repeat: no-repeat;
 }
@@ -1460,7 +1470,7 @@ display: none;
   padding: 0px 17px;
   list-style: none;
   color: #000000;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   opacity: 0.3;
@@ -1477,7 +1487,7 @@ display: none;
 .product {
   float: left;
   width: 360px;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   position: relative;
 }
 
@@ -1564,7 +1574,7 @@ display: none;
 
 .pagination {
   float: left;
-  margin-bottom: 62px;
+  margin-bottom: 60px;
 }
 
 .pagination a {
@@ -1763,53 +1773,3 @@ display: none;
   border: 0;
   font-family: inherit;
 }
-
-
-/*.sprite {
-    background-image: url("../img/sprite.png");
-    background-repeat: no-repeat;
-    display: block;
-}
-
-
-.sprite-checkbox-off {
-    width: 27px;
-    height: 23px;
-    background-position: -20px -75px;
-}
-
-.sprite-checkbox-on {
-    width: 27px;
-    height: 23px;
-    background-position: -20px -138px;
-}
-
-.sprite-fb-icon {
-    width: 12px;
-    height: 22px;
-    background-position: -20px -201px;
-}
-
-.sprite-insta-icon {
-    width: 21px;
-    height: 21px;
-    background-position: -20px -263px;
-}
-
-.sprite-radio-off {
-    width: 25px;
-    height: 25px;
-    background-position: -20px -324px;
-}
-
-.sprite-radio-on {
-    width: 25px;
-    height: 25px;
-    background-position: -20px -389px;
-}
-
-.sprite-vk-icon {
-    width: 26px;
-    height: 15px;
-    background-position: -20px -454px;
-}*/
