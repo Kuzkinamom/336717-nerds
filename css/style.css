@@ -1130,7 +1130,6 @@ padding: 0 18px;
 .form {
   width: 260px;
   float: left;
-  margin-top: 7px;
 }
 
 fieldset {
@@ -1142,7 +1141,7 @@ padding-right: 81px;
 }
 
 .form-group-title {
-  margin-bottom: 55px;
+  margin-bottom: 43px;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
@@ -1150,17 +1149,17 @@ padding-right: 81px;
 }
 
 .range-filter {
-  width: 240px;
-  margin-bottom: 60px;
+  width: 260px;
+  margin-bottom: 42px;
 }
 
 .range-controls {
   position: relative;
   height: 41px;
   padding-top: 39px;
-  padding-right: 20px;
+  padding-right: 35px;
   padding-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   border-radius: 5px;
   background: #eeeeee;
 }
@@ -1194,7 +1193,7 @@ padding-right: 81px;
 }
 
 .range-controls .toggle-max {
-  left: 140px;
+  left: 159px;
 }
 
 .price-controls {
@@ -1215,8 +1214,8 @@ padding-right: 81px;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   width: 60px;
-  margin-left: 10px;
-  padding: 8px 10px;
+  margin-left: 8px;
+  padding: 10px 10px;
   text-align: center;
   color: #283136;
   border: none;
@@ -1225,13 +1224,13 @@ padding-right: 81px;
 }
 
 .form-radio-block {
-  margin-bottom: 45px;
+  margin-bottom: 14px;
 }
 
 .form-radio-item {
   display: block;
-  margin: 10px 0;
-  margin-bottom: 15px;
+  margin: 10px 3px;
+  margin-bottom: 20px;
   padding-left: 32px;
   line-height: 20px;
   cursor: pointer;
@@ -1252,7 +1251,6 @@ padding-right: 81px;
 }
 
 .form-radio-title {
-  margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
@@ -1292,14 +1290,14 @@ padding-right: 81px;
 }
 
 .form-checkbox-block {
-  margin-bottom: 30px;
+  margin-bottom: 19px;
 }
 
 .form-checkbox-item {
   display: block;
-  margin: 10px 0;
-  margin-bottom: 18px;
-  padding-left: 32px;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+  padding-left: 36px;
   line-height: 20px;
   cursor: pointer;
   position: relative;
@@ -1351,7 +1349,7 @@ padding-right: 81px;
 }
 
 .form-checkbox-title {
-  margin-bottom: 12px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
